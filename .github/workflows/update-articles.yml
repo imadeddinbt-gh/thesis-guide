@@ -31,7 +31,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add articles.json
-          git diff --cached --quiet || git commit -m "تحديث articles.json تلقائي"
-          git push
+          git diff --cached --quiet || git commit -m "تحديث articles.json تلقائي" || echo "No changes to commit"
+          git push || echo "Push failed (possibly due to branch protection)"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
