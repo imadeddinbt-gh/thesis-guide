@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الشخصي - المقالات</title>
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4a90e2, #357ab7);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.2em; }
+    header p { margin-top: 10px; font-size: 1.2em; }
+    main { padding: 20px; max-width: 900px; margin: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 25px; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
+    th { background: #4a90e2; color: white; }
+    tr:nth-child(even) { background: #f2f2f2; }
+    a { text-decoration: none; color: #357ab7; font-weight: bold; }
+    a:hover { color: #d35400; }
+    footer { margin-top: 30px; text-align: center; padding: 15px; font-size: 0.9em; color: #777; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>مرحبًا بكم في موقعي</h1>
+    <p>هنا ستجد مجموعة من المقالات المتنوعة</p>
+  </header>
+
+  <main>
+    <h2>قائمة المقالات</h2>
+    <table id="articlesTable">
+      <tr>
+        <th>تاريخ النشر</th>
+        <th>عنوان المقال</th>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    &copy; 2025 - موقعي الشخصي
+  </footer>
+
+  <script>
+    fetch('articles.json')
+      .then(response => response.json())
+      .then(data => {
+        const table = document.getElementById('articlesTable');
+        data.forEach(article => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${article.date}</td>
+            <td><a href="${article.file}">${article.title}</a></td>
+          `;
+          table.appendChild(row);
+        });
+      })
+      .catch(error => console.error('خطأ في تحميل المقالات:', error));
+  </script>
+</body>
+</html>
