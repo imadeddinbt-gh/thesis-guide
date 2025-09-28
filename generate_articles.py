@@ -40,3 +40,4 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
     json.dump(articles_list, out, ensure_ascii=False, indent=2)
 
 print(f"تم تحديث {OUTPUT_FILE} بعدد مقالات: {len(articles_list)}")
+print(articles_list)
