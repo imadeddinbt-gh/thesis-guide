@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عوامل التأثير في منهجية صياغة التخريج</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Styling for the active link in the table of contents */
+        .toc-link.active {
+            background-color: #e5e7eb; /* light gray */
+            color: #1e3a8a; /* dark blue */
+            font-weight: 700;
+            border-right: 4px solid #1e3a8a;
+            padding-right: 1rem;
+        }
+        section {
+            padding-top: 4rem; /* Offset for scrollspy */
+            margin-top: -4rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-7xl px-4 py-8">
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Table of Contents (Sidebar) -->
+            <aside id="toc-container" class="lg:w-1/4 lg:sticky top-8 self-start hidden lg:block">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4 border-b pb-2 text-blue-900">جدول المحتويات</h3>
+                    <nav id="toc" class="space-y-2">
+                        <!-- TOC links will be dynamically generated here -->
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="w-full lg:w-3/4">
+                <div class="bg-white p-8 sm:p-12 rounded-xl shadow-lg prose-lg max-w-none">
+                    
+                    <!-- Header Section -->
+                    <header class="text-center border-b-2 border-gray-200 pb-8 mb-8">
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">عوامل التأثير في منهجية صياغة التخريج</h1>
+                        <p class="text-lg font-semibold text-gray-600">إعداد / أ.د . عبد الله بن محمد مدني بن حافظ</p>
+                        <p class="text-md text-gray-500">الأستاذ بكلية الحديث الشريف والدراسات الإسلامية بالجامعة الإسلامية بالمدينة المنورة</p>
+                    </header>
+
+                    <!-- English Title -->
+                    <div class="text-center my-8 p-4 bg-gray-100 rounded-lg">
+                        <h2 class="text-2xl font-bold text-gray-700 tracking-wide">FACTORS INFLUENCING THE SYSTEM OF TERMING AUTHENTICATION (OF HADEETH)</h2>
+                        <p class="text-md text-gray-600 mt-2">PROFESSOR ABDULLAH BN MUHAMMAD MADANI BN HAFIDH</p>
+                    </div>
+
+                    <!-- Research Summary -->
+                    <section id="summary-ar">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 mb-6">ملخص البحث</h2>
+                        <p class="leading-relaxed">الحمد لله رب العالمين والصلاة والسلام على نبيه الأمين وآله وصحبه ومن تبعه بإحسان إلى يوم الدين أما بعد:</p>
+                        <p class="leading-relaxed">تعد صياغة التخريج أهم ناتج لوظائف المخرج، وتتباين صياغة الباحثين ضعفاً وقوة بسبب العوامل المؤثرة في تحرير صياغة مكتملة العناصر وفق منهج المحدثين في الصياغة الصحيحة، وإبراز تلك العوامل المؤثرة في الصياغة سيوضح جوانب الضعف والقوة مما سيعين المخرج للوصول إلى صياغة علمية سليمة من الضعف، والإشكالات، فلاح لي أن أكتب هذا البحث بعنوان:</p>
+                        <p class="font-bold text-center text-xl my-4">عوامل التأثير في منهجية صياغة التخريج.</p>
+                        <ul class="list-none space-y-3">
+                            <li><strong class="font-semibold text-gray-700">موضوع البحث:</strong> عوامل التأثير في منهجية صياغة التخريج.</li>
+                            <li><strong class="font-semibold text-gray-700">مشكلة البحث:</strong> تباين صياغة المخرجين قوة وضعفاً وهو أثر مشهود بسبب الاختلاف في مراعاة منهجية الصياغة السليمة.</li>
+                            <li><strong class="font-semibold text-gray-700">أهداف البحث:</strong>
+                                <ol class="list-decimal pr-6 mt-2 space-y-1">
+                                    <li>إبراز العوامل المؤثرة في بناء الصياغة العلمية في تخريج الأحاديث للوصول إلى صياغة علمية صحيحة.</li>
+                                    <li>بيان أسباب الضعف والقوة في صياغة تخريج الأحاديث.</li>
+                                    <li>الإشارة إلى دقة منهجية المحدثين في صياغة التخريج.</li>
+                                </ol>
+                            </li>
+                            <li><strong class="font-semibold text-gray-700">خطة البحث:</strong> قسمت البحث إلى مقدمة، وأربعة مطالب، وخاتمة، ثم فهرس المصادر، وفهرس المحتويات.</li>
+                            <li><strong class="font-semibold text-gray-700">المنهج المتبع في البحث:</strong> اتبع الباحث في جمع المادة ودراستها المنهج الاستقرائي التحليلي.</li>
+                            <li><strong class="font-semibold text-gray-700">الكلمات الافتتاحية:</strong> صياغة - تخريج - منهجية - عوامل - مؤثرات.</li>
+                        </ul>
+                    </section>
+                    
+                    <!-- English Abstract -->
+                    <section id="summary-en">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">Abstract</h2>
+                        <div class="text-left" lang="en" dir="ltr">
+                            <p class="leading-relaxed">All praises belong to Allah, may His peace and blessings be upon his prophet, his households and upon his followers till hereafter.</p>
+                            <p class="leading-relaxed">Terming authentication (of Hadith) is the most important outcome of authenticators' (of hadith) efforts. Varying terms among scholars is caused by different factors. Exposing these factors will clarify the aspects of weakness and authenticity which will enable the authenticator to arrive at a sound academic terminology. Hence, it dawned upon me to write this thesis titled: Factors influencing the system of terming authentication (of Hadeeth).</p>
+                            <ul class="list-none space-y-3 mt-4">
+                                <li><strong>Research Topic:</strong> Factors influencing the system of terming authentication (of Hadeeth).</li>
+                                <li><strong>Research Problem:</strong> Variation in the phrasing of collectors (of Hadeeth) in strength and weakness and this is a witnessed impact due to the difference in following a safe phrasing methodology.</li>
+                                <li><strong>Aims of Research:</strong>
+                                    <ol class="list-decimal pl-6 mt-2 space-y-1">
+                                        <li>Highlighting the factors influencing the establishment of academic phrasing of authentication of Hadeeths to attain a sound academic phrasing.</li>
+                                        <li>Explaining the reasons for weakness and strength (of Hadeeth) in phrasing hadeeths authentication.</li>
+                                        <li>Pointing out the deep methodology of the scholars of hadeeth in phrasing authentication (of hadeeth).</li>
+                                    </ol>
+                                </li>
+                                <li><strong>Thesis Outline:</strong> I sectioned the thesis into an introduction, four chapters, and a conclusion, then the reference table, and the table of contents.</li>
+                                <li><strong>Adopted Methodology:</strong> The researcher applied the inductive and analytical approach in collating the topic and its study.</li>
+                                <li><strong>Keywords:</strong> Phrasing - Authentication - Methodology - Factors - Influencing.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Introduction -->
+                    <section id="introduction">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">مقدمة</h2>
+                        <p class="leading-relaxed">الحمد لله رب العالمين والصلاة والسلام على نبيه الأمين وآله وصحبه ومن تبعه بإحسان إلى يوم الدين أما بعد:</p>
+                        <p class="leading-relaxed">تعد صياغة التخريج أهم ناتج لوظائف المخرج، وتتباين صياغة الباحثين ضعفاً وقوة بسبب العوامل المؤثرة في تحرير صياغة مكتملة العناصر وفق منهج المحدثين في الصياغة الصحيحة، وإبراز تلك العوامل المؤثرة في الصياغة سيوضح جوانب الضعف والقوة مما سيعين المخرج للوصول إلى صياغة علمية سليمة من الضعف، والإشكالات، فلاح لي أن أكتب هذا البحث بعنوان:</p>
+                        <p class="font-bold text-center text-xl my-4">عوامل التأثير في منهجية صياغة التخريج.</p>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">مشكلة البحث:</h3>
+                        <p class="leading-relaxed">تباين صياغة المخرجين قوة وضعفاً أمر مشهود بسبب الاختلاف في مراعاة منهجية الصياغة السليمة، فرب جهد يبذله المخرج ثم تقصر عباراته في تحرير الصياغة، فلا يبرز جهده، لضعف مراعاة العوامل المؤثرة في صياغة التخريج.</p>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">أهداف البحث:</h3>
+                        <ol class="list-decimal pr-6 space-y-1">
+                            <li>إبراز العوامل المؤثرة في بناء الصياغة العلمية في تخريج الأحاديث للوصول إلى صياغة علمية صحيحة.</li>
+                            <li>بيان أسباب الضعف والقوة في صياغة تخريج الأحاديث.</li>
+                            <li>الإشارة إلى دقة منهجية المحدثين في صياغة التخريج.</li>
+                        </ol>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">خطة البحث:</h3>
+                        <p class="leading-relaxed">قسمت البحث إلى مقدمة، وتوطئة، وأربعة مطالب:
+                            <ul class="list-disc pr-6 mt-2 space-y-1">
+                                <li>المطلب الأول: عوامل التأثير العامة في منهجية صياغة التخريج.</li>
+                                <li>المطلب الثاني: عوامل التأثير المتعلقة بحكاية الأسانيد.</li>
+                                <li>المطلب الثالث: عوامل التأثير المتعلقة بحكاية المتون.</li>
+                                <li>المطلب الرابع: عوامل التأثير المتعلقة بحكاية المتابعات والشواهد والحكم على الروايات، ثم الخاتمة، ثم فهرس المصادر، وفهرس المحتويات.</li>
+                            </ul>
+                        </p>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">المنهج المتبع في البحث:</h3>
+                        <p class="leading-relaxed">اتبع الباحث في جمع المادة ودراستها المنهج الاستقرائي التحليلي.</p>
+                    </section>
+
+                    <!-- Previous Studies -->
+                    <section id="previous-studies">
+                         <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">الدراسات السابقة وتوطئة</h2>
+                         <h3 class="text-2xl font-bold mb-3">الدراسات السابقة</h3>
+                        <p class="leading-relaxed">يعد موضوع صياغة التخريج من الموضوعات المتأخرة، قليلة التصنيف، فلم أقف على تصنيف مستقل متقدم فيه، وإنما صنف فيه مؤخراً، وتتناثر مادته في كتب التخريج وماهيته، وبعض الأبحاث المتخصصة، التي اشتملت على كثير من العوامل، قصدت جمعها منها، وتقريبها، وتفسيرها بسبيل يقرب تناولها ويربط أولها بآخرها، ومن أشهر ما وقفت عليه مما صنف صياغة التخريج خاصة:</p>
+                        <ul class="list-decimal pr-6 mt-4 space-y-2">
+                           <li><strong>مصطلحات العزو والتوثيق في التخريج،</strong> د. يحيى الشهري</li>
+                           <li><strong>تلبية المغيث في كيفية صياغة الأحاديث عند التخريج،</strong> د. نادي عبد الله محمد</li>
+                           <li><strong>صياغة التخريج،</strong> أ. د. عبد الله الفالح</li>
+                           <li><strong>قواعد صياغة تخريج الأحاديث ومناهج العلماء فيها،</strong> د. سعد الدوسري.</li>
+                        </ul>
+                         <h3 class="text-2xl font-bold mt-6 mb-3">توطئة: مفهوم صياغة التخريج</h3>
+                        <p class="leading-relaxed">الصياغة في اللغة: بكسر الصاد: مصدر "صاغ الشيء، يصوغه، صوغاً: هيأه على مثال مستقيم، وسبكه"، ومنه: صيغ الأداء عند المحدثين، وهي الألفاظ التي يعبر بها الراوي عن كيفية تحمله للحديث.</p>
+                        <p class="leading-relaxed">ويمكن التعبير عن مفهوم صياغة التخريج بأنها: "تهيئة معلومات التخريج والتعبير عنها بصورة مستقيمة مطابقة لواقع المصادر، ومراعية للقواعد الحديثية، بصورة واضحة للقارئ".</p>
+                        <p class="leading-relaxed">هكذا عرفها أ. د عبد الله الفالح، وأرى أن الصياغة وصف الممارسة تطبيقية فيمكن أيضاً أن يقال هي: وصف تحقق نواتج عمليات التخريج بصورة واضحة محددة وفق القواعد الحديثية.</p>
+                    </section>
+                    
+                    <!-- Chapter 1 -->
+                    <section id="chapter1">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">المطلب الأول: عوامل التأثير العامة في منهجية صياغة التخريج</h2>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">1. تحقق أهلية المخرج</h3>
+                        <blockquote class="border-r-4 border-gray-300 pr-4 my-4 italic text-gray-600">
+                            <p>"علل الحديث من أجل علوم الحديث وأدقها وأشرفها، وإنما يضطلع بذلك أهل الحفظ والخبرة والفهم الثاقب."</p>
+                            <cite class="block text-left not-italic text-sm">- ابن الصلاح</cite>
+                        </blockquote>
+                        <p class="leading-relaxed">فصياغة التخريج ترتكز على التمكن من علوم الحديث، وتتأثر بذلك صياغة التخريج قوة وضعفاً، فبمقدار معرفة المخرج بعلم الرواية واطلاعه على مصادر التخريج، وتمكنه من علم الدراية النظري والتطبيقي، واكتسابه مهارات جمع الطرق، والقدرة على استيعاب التباين في الأسانيد والمتون، وتحرير اختلافات أئمة الحديث وفهم اصطلاحاتهم الخاصة، والموازنة والترجيح بين آرائهم، مع قدرته على الاستفادة من المحتوى الرقمي من برامج وتطبيقات ومواقع إلكترونية.</p>
+                        <p class="leading-relaxed">ثم المهارة في أسلوب الكتابة والتحرير والتلخيص، والقدرة على إفهام القارئ وإقناعه بأسلوب سهل بعيد عن الحشو والتكرار.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">2. ارتباط صياغة التخريج بوظائف المخرج</h3>
+                        <p class="leading-relaxed">تتكون صياغة التخريج من محصلة نتائج وظائف المخرج، وأيما نقص في هذه الوظائف فهو مؤثر سلباً في الصياغة، فالوقوف على مصادر التخريج واختيار الطريقة المناسبة للتخريج، وتمييز مدارات الطرق الأساسية والفرعية، ومعرفة أحوال رجال الأسانيد جرحاً وتعديلاً، وطبقاتهم في شيوخهم، تحليل مواضع الاختلاف في الأسانيد والمتون، والتأمل في الفوائد الإسنادية والمتنية، وتتبع المتابعات والشواهد، وأحكام النقاد والمخرجين الصريحة والضمنية على الرواة وأحاديثهم، وتطبيق شروط قبول الرواية. جميع ذلك يجب استيفاؤه قبل الشروع في تحرير صياغة التخريج.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">3. تأثر صياغة التخريج بالنتائج التراكمية لوظائف المخرج</h3>
+                        <p class="leading-relaxed">نتائج وظائف يعتمد بعضها على بعض، فكثيراً ما يتعقب النقاد بعضهم بسبب ذلك، فالقصور في أي وظيفة منها مؤثر في باقي الوظائف وستكون نتائج الصياغة تبعاً لذلك غير صحيحة على سبيل المثال:</p>
+                        <ul class="list-disc pr-6 space-y-1">
+                            <li>الضعف في جمع الطرق يترتب عليه الضعف في معرفة المتابعات.</li>
+                            <li>الضعف في بيان حال الرواة يترتب عليه قصور في تحقق شروط قبول الرواية.</li>
+                            <li>الضعف في مقارنة المرويات يترتب عليه ضعف نتائج تحليل دراسة اختلاف المرويات.... الخ.</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">4. مراعاة خطوات محددة لجمع مادة الصيغة، وتنظيم مادتها لتحرير صياغة التخريج</h3>
+                        <p class="leading-relaxed">مرحلة الجمع والتنظيم هي أساس تحرير الصياغة؛ لأن استيفاء الجمع، وتصور طرق الحديث وألفاظه ومصادره ثم تنظيمها بصورة صحيحة، تنبني عليها دراسة الحديث والحكم عليه. والقصور في تنظيم المادة أو جمعها، طريق إلى اضطراب المخرج، وشتات ذهنه، وضعف دقة صياغته. والمنهجية المنتظمة في جمع مادة الصياغة تعين المخرج على جمع المادة بصور وافية، خلافاً للعشوائية، فمن جودة المنهجية في جمع مادة الصياغة، السير على خطوات ثابتة على النحو التالي:</p>
+                        <ol class="list-decimal pr-6 space-y-1">
+                             <li>القراءة الإجمالية لتخريج الحديث.</li>
+                             <li>اختيار الطريقة المناسبة للوصول لمصادر العزو.</li>
+                             <li>جمع الطرق على سبيل الاستيعاب.</li>
+                             <li>مراعاة تمييز الرواة ومعرفة أحوالهم.</li>
+                             <li>رسم شجرة الأسانيد.</li>
+                             <li>تحديد مدارات الروايات.</li>
+                             <li>المقارنة بين الطرق والوقوف على مدى الاختلاف والاتفاق بينها في المتن والإسناد.</li>
+                             <li>النظر في المتابعات التامة والقاصرة.</li>
+                             <li>التحقق من شروط قبول الرواية.</li>
+                             <li>تتبع أقوال الأئمة على الرواية، وتحليل الأقوال، والترجيح بينها بالقرائن.</li>
+                             <li>تطلب الشواهد عند الحاجة.</li>
+                             <li>الحكم على الرواية وفق منهج المحدثين.</li>
+                             <li>تحرير صياغة التخريج.</li>
+                        </ol>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">5. التوسع عند جمع مادة التخريج والتدقيق والانتقاء والتلخيص عند تحرير الصياغة</h3>
+                        <p class="leading-relaxed">لا يلزم المخرج أن يسطر كل ما وقف عليه من مادة حال الجمع، بل يجب أن يطبق منهج المحدثين في قولهم "إذا كتبت فَقَمِّش، وإذا حدثت فَفَتِّش"، ومعناه التوسع عند التلقي والجمع، ويكون التدقيق والانتقاء عند الأداء والتحديث، فالمخرج الجيد يحرص على الاستيعاب في مرحلة الجمع، ولا يترك شيئاً من المصادر والطرق وكلام أهل العلم، ثم يعمد إلى التدقيق والانتقاء والتلخيص عند تحرير الصياغة.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">6. تأثر مادة التخريج بطريقة الجمع</h3>
+                        <p class="leading-relaxed">جمع مادة الصياغة يتأثر بالطريقة المختارة للتخريج عن طريق الإسناد، أو ألفاظ المتن، أو الكشف الموضوعي، أو الكشف بحال صفة في الإسناد أو المتن. والشائع حالياً استخدام المحتوى الرقمي للجمع، وهذا مع كونه غير دقيق لا في المحتوى ولا النتائج، الاعتماد عليه كليا طريق للجهل بالمصادر، وضعف الصياغة غالباً، فيحسن الاستفادة من هذا المحتوى دون الاعتماد عليه كلياً مع لزوم الطرق المعتبرة للتخريج، مع العناية بتعدد طرق التخريج.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">7. أثر الاعتماد على القراءة الإجمالية</h3>
+                        <p class="leading-relaxed">تضعف شخصية المخرج عند الاتكاء على جهود المخرجين دون موازنة لمادتهم، مما ينتج عنه: قصور في استيعاب الطرق ومصادر العزو واستيفاء أحكام الأئمة، والتأثر بصياغة المخرجين، والتساهل في مراجعة أصول المنقولات والاعتماد على الأحكام المنقولة دون تأمل وتحليل، والمسارعة بنقد أحكام الأئمة ووصفهم بالتساهل، أو التشدد وضعف استيفاء أقوال الإمام الواحد موضعاً وزمناً، والتعصب لرأي المخرجين.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">8. مراعاة الغاية من التخريج لتحديد نوع صياغة التخريج</h3>
+                        <p class="leading-relaxed">يتنوع التخريج وفقاً للغاية منه، ويحكم ذلك طبيعة المادة المراد تخريجها، ولذلك استعمل المحدثون التخريج المختصر، والمتوسط، والمطول، فكل مناسب لغرض المخرج، فكتاب البدر المنير مثال على التخريج الموسع والتلخيص الحبير، يمثل التخريج المتوسط، ومنتقى خلاصة البدر المنير مثال للتخريج المختصر.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">9. استكمال عناصر صياغة التخريج</h3>
+                        <p class="leading-relaxed">تتكون صياغة التخريج من جزئين أساسين:
+                        <ol class="list-decimal pr-6 space-y-1">
+                          <li><strong>التوثيق:</strong> يتضمن عزو الحديث للمصادر الحديثية، وموضعه منها، وبيان كيفية الإخراج، وذكر أسانيده وألفاظه، والباحث ههنا ليس له إلا وصف الواقع بصورة مختصرة واضحة.</li>
+                          <li><strong>الدراسة:</strong> تتضمن كل ما يحتاج إليه للوصول إلى درجة الحديث، من ترجمة رواة الإسناد، وبيان العلل واختلافات الرواة سنداً ومتناً، والترجيح بينها، وبيان أحكام العلماء، وما يقوي الحديث أو يعارضه من الأسانيد أو المتون الأخرى.</li>
+                        </ol>
+                        </p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">10. جمع الطرق مقدم على حكاية الألفاظ في صياغة التخريج</h3>
+                        <blockquote class="border-r-4 border-gray-300 pr-4 my-4 italic text-gray-600">
+                           <p>"وإن المتعين على من يتكلم على الأحاديث أن يجمع طرقها، ثم يجمع ألفاظ المتون إذا صحت الطرق ويشرحها على أنه حديث واحد، فإن الحديث أولى ما فسر بالحديث."</p>
+                           <cite class="block text-left not-italic text-sm">- الحافظ ابن حجر</cite>
+                        </blockquote>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">11. اتباع منهج المحدثين في جمع الطرق، وتحديد مداراتها</h3>
+                        <p class="leading-relaxed">من أهم وظائف المخرج جمع طرق الحديث على سبيل الاستيعاب، ثم اعتبار بعضها ببعض، ومقارنتها سنداً ومتناً، للوصول إلى مواضع الاتفاق والاختلاف من الزيادة والنقصان، أو التفرد، أو العلل المتنية أو الإسنادية.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">12. مراعاة ضوابط العزو للمصادر الأصلية والفرعية</h3>
+                        <p class="leading-relaxed">مراعاة العزو إلى المصادر الأصلية أمر محتم في صياغة التخريج، فلا يعزى إلى المصادر الفرعية إلا لمعنى كفقد المصدر الأصلي، أو فائدة.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">13. الالتزام بضابط استيعاب المصادر في التخريج</h3>
+                        <p class="leading-relaxed">استيعاب الطرق من المصادر الأصلية منهج متبع عند المحدثين، لكن التوسع في استيعاب المصادر ينبغي أن يكون لغرض صحيح إما لشهرة المصدر أو شرطه أو قدم وفاة مؤلفه، أو قلة الوسائط، أو فائدة إسنادية.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">14. مراعاة ترتيب المصادر في العزو والانتظام فيه</h3>
+                        <p class="leading-relaxed">يجب أن يمتثل المخرج طريقة منتظمة في ترتيب المصادر، والترتيب له طرق:</p>
+                        <ul class="list-disc pr-6 space-y-1">
+                           <li>الترتيب على سنة الوفاة.</li>
+                           <li>الترتيب وفق القوة والشهرة.</li>
+                           <li>الجمع بين الأمرين.</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">15. مراعاة إخراج صاحبي الصحيح أو أحدهما للحديث</h3>
+                        <p class="leading-relaxed">يجب على المخرج أن لا يهمل ذكر إخراج البخاري ومسلم، أو أحدهما للحديث أو معناه.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">16. العزو لمصدر متأخر، مع وجوده في مصدر متقدم</h3>
+                        <p class="leading-relaxed">لا يسوغ عزو حديث لمصدر متأخر كالطبراني مع وجود الحديث عند متقدم كأحمد.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">17. الالتزام بمصطلحات العزو</h3>
+                        <p class="leading-relaxed">ينبغي أن يفرق المخرج في العزو بين المصادر المسندة وغير المسندة.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">18. توثيق العزو</h3>
+                        <p class="leading-relaxed">ينبغي أن يذكر المخرج في الصياغة معلومات العزو من اسم المؤلف والكتاب، وبيان المنقول.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">19. الالتزام بإطلاقات المحدثين واصطلاحاتهم في العزو</h3>
+                        <p class="leading-relaxed">الإلمام بمصطلحات أهل الفن الخاصة والعامة من لوازم الصياغة الصحيحة.</p>
+                    </section>
+                    
+                     <!-- Chapter 2 -->
+                    <section id="chapter2">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">المطلب الثاني: عوامل التأثير المتعلقة بحكاية الأسانيد</h2>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">20. مراعاة معرفة أصل الحديث عند حكاية الأسانيد</h3>
+                        <p class="leading-relaxed">يجب قبل الصياغة معرفة أصل الحديث ومخرجه، وهو الراوي أو الرواة الذين تدور عليهم أسانيد الحديث.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">21. اختيار الطريقة الأنسب لحكاية طرق الأسانيد</h3>
+                        <p class="leading-relaxed">يحدد المخرج الطريقة الأنسب لحكاية الأسانيد، وترد طرق حكاية الأسانيد إلى ثلاثة طرق:</p>
+                        <ul class="list-disc pr-6 space-y-1">
+                           <li><strong>طريقة المتابعات:</strong> هي الأصل في صياغة التخريج.</li>
+                           <li><strong>طريقة المدارات:</strong> تستعمل كثيراً في تخريج الأحاديث التي لا تكثر فيها العلل.</li>
+                           <li><strong>طريقة الخلاف:</strong> تستعمل في الأحاديث المعلة والمضطربة.</li>
+                        </ul>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">22. مراعاة استعمال عبارات تلخيص ذكر الأسانيد في صياغة التخريج</h3>
+                        <p class="leading-relaxed">من العوامل في تحرير صياغة التخريج الالتزام باستخدام عبارات المحدثين في ذكر الطرق مثل: كلهم، ثلاثتهم، به، أخرجه من طريق فلان، وخالفه، وغيرها.</p>
+                    </section>
+
+                    <!-- Chapter 3 -->
+                    <section id="chapter3">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">المطلب الثالث: عوامل التأثير المتعلقة بحكاية المتون</h2>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">23. مراعاة منهجية كيفية التمييز بين الألفاظ عند الصياغة</h3>
+                        <p class="leading-relaxed">يجب العناية بألفاظ الرواية حال الجمع وتمييز الفوارق بينها. ولصياغة مقارنة الألفاظ حالتان: الأولى أن تتشابه ألفاظ المخرجين، والثانية أن يقع اختلاف مؤثر.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">24. مراعاة استخدام عبارات مقارنة ألفاظ المتون</h3>
+                        <p class="leading-relaxed">للمحدثين عبارات محددة في منهج تمييز ألفاظ الروايات، ينبغي الالتزام بها، مثل: بلفظه، بنحوه، بمعناه، بزيادة، ببعضه، بتقديم وتأخير.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">25. مراعاة جمع نظائر المتون بعضها لبعض والتعبير بلفظ يشملها</h3>
+                        <p class="leading-relaxed">ذكر جميع المتون أو التعبير عن كل متن دون جمع النظائر بعضها لبعض والتعبير بلفظ يجمعها أو تكراره، أمر خلاف منهج المحدثين في التخريج.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">26. الالتزام بالدقة في العزو والأمانة العلمية بنسبة اللفظ</h3>
+                        <p class="leading-relaxed">الدقة في العزو، والأمانة العلمية بنسبة اللفظ إلى قائله أو راويه أو مخرجه، وجمع ألفاظ الحديث المختلفة بتتبع واستقصاء، من مقتضيات صياغة التخريج المعتبرة.</p>
+                    </section>
+                    
+                    <!-- Chapter 4 -->
+                    <section id="chapter4">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">المطلب الرابع: عوامل التأثير المتعلقة بصياغة المتابعات والشواهد والحكم على الروايات</h2>
+                        <h3 class="text-2xl font-bold mt-6 mb-3">27. الاعتبار ضابط رئيس لا يمكن إهماله في الحكم على الرواية</h3>
+                        <p class="leading-relaxed">لا بد للمخرج إتقان ضابط الاعتبار، فهو أمر لا يسعه إهماله، وإلا كان حكمه مجانباً للصواب.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">28. مراعاة صلاحية المتابعات والشواهد للاعتبار</h3>
+                        <p class="leading-relaxed">الاشتغال بتتبع الطرق الواهية مع وجود الطرق الصحيحة، عمل مخل في الصياغة المحررة.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">29. التدقيق في لفظ المتابعات والشواهد</h3>
+                        <p class="leading-relaxed">يجب على المخرج إدراك الموافقة بين حديث الأصل وما ورد في المتابعات والشواهد وتحرير ذلك في الصياغة.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">30. مراعاة ما يثبت من محتوى في تحرير صياغة الشواهد</h3>
+                        <p class="leading-relaxed">يجب على المخرج دراسة الشواهد دراسة تامة كحديث الأصل، ولكن لا يثبت في الصياغة إلا ملخص تلك الدراسة.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">31. مراعاة بيان حكم الروايات</h3>
+                        <p class="leading-relaxed">الصياغة المكتملة يحرر فيها الحكم على المرويات.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">32. نقد الأحكام والترجيح بينها من سمات ظهور شخصية المخرج</h3>
+                        <p class="leading-relaxed">الاكتفاء بذكر أقوال الأئمة دون نقدها لا تظهر معه شخصية المخرج.</p>
+
+                        <h3 class="text-2xl font-bold mt-6 mb-3">33. ترك الجزم بالحكم فيما لا يوجد له مستند ظاهر</h3>
+                        <p class="leading-relaxed">الأولى عدم الجزم بالحكم إذا افتقر المقام إلى حكم عن أئمة النقد.</p>
+                        
+                        <h3 class="text-2xl font-bold mt-6 mb-3">34. استحضار أن لكل حديث ذوق ونظر ليس للآخر</h3>
+                        <blockquote class="border-r-4 border-gray-300 pr-4 my-4 italic text-gray-600">
+                           <p>"...ولكل حديث ذوق ويختص بنظر ليس للآخر."</p>
+                           <cite class="block text-left not-italic text-sm">- شيخ الإسلام ابن تيمية</cite>
+                        </blockquote>
+                        <p class="leading-relaxed">وقال ابن رجب: "...ولهم في كل حديث نقد خاص، وليس عندهم لذلك ضابط يضبطه".</p>
+                    </section>
+
+                    <!-- Conclusion -->
+                    <section id="conclusion">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">الخاتمة</h2>
+                        <p class="leading-relaxed">الحمد لله الذي بنعمته تتم الصالحات، والصلاة والسلام على سيد البشر، وعلى آله وصحبه أجمعين، وبعد:</p>
+                        <p class="leading-relaxed">فقد اشتمل هذا البحث على أبرز معالم عوامل التأثير في منهجية صياغة التخريج، فشمل (٣٤) عاملاً، توزعت على مطالب البحث. وهذه العوامل يشد بعضها بعضاً، والمؤمل أن مراعاتها سيحقق صياغة مناسبة في تخريج الأحاديث، والبحث محاولة لوضع لبنة في هذا الموضوع، والله ولي التوفيق.</p>
+                    </section>
+                    
+                    <!-- Sources -->
+                    <section id="sources">
+                        <h2 class="text-3xl font-bold text-blue-800 border-r-4 border-blue-800 pr-4 my-6">فهرس المصادر</h2>
+                        <ul class="list-disc pr-6 space-y-2 text-md">
+                            <li>بيان الوهم والإيهام الواقعين في كتاب الأحكام، لعلي بن محمد ابن القطان.</li>
+                            <li>البيان والتعريف في أسباب ورود الحديث الشريف، لإبراهيم بن محمد الحسيني.</li>
+                            <li>تاج العروس من جواهر القاموس، لمحمد مرتضى الزبيدي.</li>
+                            <li>التأصيل لأصول التخريج وقواعد الجرح والتعديل لبكر أبي زيد.</li>
+                            <li>تخريج الحديث، إشراف مركز إحسان لدراسات السنة.</li>
+                            <li>وغيرها من المصادر المذكورة في البحث الأصلي...</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toc = document.getElementById('toc');
+            const sections = document.querySelectorAll('main section[id]');
+            
+            // Generate TOC links
+            sections.forEach(section => {
+                const title = section.querySelector('h2').textContent;
+                const id = section.getAttribute('id');
+                const link = document.createElement('a');
+                link.href = `#${id}`;
+                link.textContent = title;
+                link.className = 'block toc-link text-gray-600 hover:text-blue-800 transition-colors duration-200 py-2 pr-2 rounded-r-md';
+                toc.appendChild(link);
+            });
+            
+            const tocLinks = document.querySelectorAll('.toc-link');
+
+            // Intersection Observer for scrollspy
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    const id = entry.target.getAttribute('id');
+                    const tocLink = document.querySelector(`.toc-link[href="#${id}"]`);
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+                        tocLinks.forEach(link => link.classList.remove('active'));
+                        tocLink.classList.add('active');
+                    }
+                });
+            }, { rootMargin: "0px 0px -50% 0px", threshold: 0.5 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
